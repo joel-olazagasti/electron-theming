@@ -1,0 +1,5 @@
+TEMPLATE_DIR = os.path.join(os.path.dirname(file), 'templates')
+jinja_environment = jinja2.Environment(autoescape=False, loader=jinja2.FileSystemLoader(TEMPLATE_DIR))
+template = jinja_environment.get_template('CommentCreate.html')
+self.response.out.write(template.render(template_values))
+with open('my_new_html_file.html', 'w') as f: f.write(response.content)

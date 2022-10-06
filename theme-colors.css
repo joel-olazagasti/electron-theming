@@ -1,0 +1,124 @@
+:root {
+  /* Gruvbox */
+
+  /* Light */
+  --gruvbox_light--bg: #fbf1c7;
+  --gruvbox_light--light_gray_dark: #b3a89e;
+  --gruvbox_light--gray_dark: #928374;
+  --gruvbox_light--red_dark: #cc241d;
+  --gruvbox_light--red_light: #9d0006;
+  --gruvbox_light--green_dark: #98971a;
+  --gruvbox_light--green_light: #79740e;
+  --gruvbox_light--yellow_dark: #d79921;
+  --gruvbox_light--yellow_light: #b57614;
+  --gruvbox_light--blue_dark: #458588;
+  --gruvbox_light--blue_light: #076678;
+  --gruvbox_light--purple_dark: #b16286;
+  --gruvbox_light--purple_light: #b16286;
+  --gruvbox_light--aqua_dark: #689d6a;
+  --gruvbox_light--aqua_light: #427b58;
+  --gruvbox_light--gray_light: #7c6f64;
+  --gruvbox_light--orange_dark: #d65d0e;
+  --gruvbox_light--orange_light: #af3a03;
+  --gruvbox_light--fg: #3c3836;
+  --gruvbox_light--bg0_h: #f9f5d7;
+  --gruvbox_light--bg0: #fbf1c7;
+  --gruvbox_light--bg1: #ebdbb2;
+  --gruvbox_light--bg2: #d5c4a1;
+  --gruvbox_light--bg3: #bdae93;
+  --gruvbox_light--bg4: #a89984;
+  --gruvbox_light--bg0_s: #f2e5bc;
+  --gruvbox_light--fg4: #7c6f64;
+  --gruvbox_light--fg3: #665c54;
+  --gruvbox_light--fg2: #504945;
+  --gruvbox_light--fg1: #3c3836;
+  --gruvbox_light--fg0: #282828;
+
+  /* Dark */
+
+  --gruvbox_dark--bg: #282828;
+  --gruvbox_dark--light_gray_dark: #b3a89e;
+  --gruvbox_dark--gray_dark: #928374;
+  --gruvbox_dark--red_dark: #cc241d;
+  --gruvbox_dark--red_light: #fb4934;
+  --gruvbox_dark--green_dark: #98971a;
+  --gruvbox_dark--green_light: #b8bb26;
+  --gruvbox_dark--yellow_dark: #d79921;
+  --gruvbox_dark--yellow_light: #fabd2f;
+  --gruvbox_dark--blue_dark: #458588;
+  --gruvbox_dark--blue_light: #83a598;
+  --gruvbox_dark--purple_dark: #b16286;
+  --gruvbox_dark--purple_light: #d3869b;
+  --gruvbox_dark--aqua_dark: #689d6a;
+  --gruvbox_dark--aqua_light: #8ec07c;
+  --gruvbox_dark--gray_light: #a89984;
+  --gruvbox_dark--orange_dark: #d65d0e;
+  --gruvbox_dark--orange_light: #fe8019;
+  --gruvbox_dark--fg: #ebdbb2;
+  --gruvbox_dark--bg0_h: #1d2021;
+  --gruvbox_dark--bg0: #282828;
+  --gruvbox_dark--bg1: #3c3836;
+  --gruvbox_dark--bg2: #504945;
+  --gruvbox_dark--bg3: #665c54;
+  --gruvbox_dark--bg4: #7c6f64;
+  --gruvbox_dark--bg0_s: #32302f;
+  --gruvbox_dark--fg4: #a89984;
+  --gruvbox_dark--fg3: #bdae93;
+  --gruvbox_dark--fg2: #d5c4a1;
+  --gruvbox_dark--fg1: #ebdbb2;
+  --gruvbox_dark--fg0: #fbf1c7;
+
+  --windark1: #202020;
+  --windark2: #1c1c1c;
+  --windark3: #282828;
+  --windark4: #2c2c2c;
+
+  --windark-mica: #202020;
+  --windark-acrylic: #222222;
+
+  --windarkborder1: 1px solid rgba(117, 117, 117, 0.4);
+  --windarkborder2: 1px solid rgba(255, 255, 255, 0.0837);
+  --windarkborder3: 1px solid rgba(0, 0, 0, 0.1);
+  --windarkborder4: 1px solid rgba(0, 0, 0, 0.2);
+
+  --windark-check1: rgba(255, 255, 255, 0.5442);
+
+  --windark-toggle-off: rgba(255, 255, 255, 0.786);
+
+  --windark-button-bg: #2a2a2a;
+  --windark-button-hover: #2f2f2f;
+  --windark-button-border: #2c2c2c;
+  --windark-button-top: #313131;
+  --windark-button-bottom: #2b2b2b;
+
+  --windark-box1: linear-gradient(
+      0deg,
+      rgba(44, 44, 44, 0.15),
+      rgba(44, 44, 44, 0.15)
+    ),
+    rgba(44, 44, 44, 0.96);
+
+  --winlight1: var(--gruvbox_light--bg2);
+  --winlight2: var(--gruvbox_light--bg3);
+  --winlight3: var(--gruvbox_light--bg1);
+  --winlight4: var(--gruvbox_light--bg0);
+
+  --winlight-mica: var(--winlight1);
+  --winlight-acrylic: var(--gruvbox_light--bg2);
+
+  --winlightborder1: 1px solid rgba(124, 111, 100, 0.4);
+  --winlightborder2: 1px solid rgba(124, 111, 100, 0.1);
+  --winlightborder3: 1px solid rgba(124, 111, 100, 0.2);
+
+  --winlight-check1: rgba(124, 111, 100, 0.5);
+
+  --winlight-toggle-off: rgba(124, 111, 100, 0.8);
+
+  --winlight-button-bg: var(--gruvbox_light--bg0);
+  --winlight-button-hover: var(--gruvbox_light--bg1);
+  --winlight-button-border: var(--gruvbox_light--bg2);
+  --winlight-button-top: var(--gruvbox_light--bg3);
+  --winlight-button-bottom: var(--gruvbox_light--bg4);
+
+  --winlight-box1: var(--gruvbox_light--bg1);
+}
